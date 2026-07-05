@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700">
+  <defs>
+    <linearGradient id="g3" x1="0" x2="1">
+      <stop offset="0%" stop-color="#dcfce7"/>
+      <stop offset="100%" stop-color="#bbf7d0"/>
+    </linearGradient>
+    <style>
+      .bg{fill:url(#g3)}
+      .card{fill:#fff;stroke:#e6f4ea;stroke-width:2;rx:18}
+      .h1{font:700 36px sans-serif;fill:#065f46}
+      .muted{font:400 18px sans-serif;fill:#065f46}
+    </style>
+  </defs>
+  <rect width="100%" height="100%" class="bg" rx="24"/>
+  <g transform="translate(60,60)">
+    <rect width="1080" height="580" class="card"/>
+    <text x="40" y="70" class="h1">Tracking</text>
+    <text x="40" y="110" class="muted">Steps, water, sleep, and nutrition</text>
+
+    <g transform="translate(40,150)">
+      <rect width="320" height="320" fill="#ffffff" rx="12" stroke="#e6f4ea"/>
+      <text x="24" y="70" font-size="20" fill="#065f46">Steps</text>
+      <text x="24" y="120" font-size="36" fill="#065f46">7,842</text>
+    </g>
+
+    <g transform="translate(400,150)">
+      <rect width="320" height="320" fill="#ffffff" rx="12" stroke="#e6f4ea"/>
+      <text x="24" y="70" font-size="20" fill="#065f46">Water</text>
+      <text x="24" y="120" font-size="36" fill="#065f46">1.8 L</text>
+    </g>
+
+    <g transform="translate(760,150)">
+      <rect width="320" height="320" fill="#ffffff" rx="12" stroke="#e6f4ea"/>
+      <text x="24" y="70" font-size="20" fill="#065f46">Sleep</text>
+      <text x="24" y="120" font-size="36" fill="#065f46">7h 12m</text>
+    </g>
+  </g>
+</svg>

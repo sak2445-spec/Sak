@@ -3,7 +3,7 @@
 [![Build Status](https://img.shields.io/badge/build-passing-brightgreen)](https://github.com/sak2445-spec/Sak)
 [![License](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
 
-AI-powered Fitness & Wellness App that creates custom workout and diet plans for you. Sak uses lightweight on-device models and cloud sync to deliver personalized training, habit coaching, and progress tracking — whether you want to build strength, lose weight, or improve overall wellbeing.
+AI-powered Fitness & Wellness App that creates custom workout and diet plans for you. Sak uses lightweight on-device models and optional cloud sync to deliver personalized training, habit coaching, and progress tracking — whether you want to build strength, lose weight, or improve overall wellbeing.
 
 ## ✨ Features
 - **Workout plan** - Personalized exercise routines based on goals, equipment, and time availability
@@ -15,10 +15,8 @@ AI-powered Fitness & Wellness App that creates custom workout and diet plans for
 - **Challenges & streaks** - Motivational goals and streak tracking
 - **Custom reminders** - Schedule reminders for workouts, meals, and habits
 
-(Added 3 features: Water reminder, Step counter, Sleep tracking — plus a few more useful ones.)
-
 ## 📝 App Description
-Sak is your friendly, AI-driven fitness companion that helps you form sustainable habits and reach your wellness goals. It generates customized workout plans, adapts nutrition guidance based on progress, and reminds you to stay hydrated and active. With simple tracking, clear analytics, and motivational challenges, Sak helps you build consistency and see measurable results.
+Sak is your friendly, AI-driven fitness companion that helps you form sustainable habits and reach your wellness goals. It generates customized workout plans, adapts nutrition guidance based on progress, and provides simple analytics and motivational features.
 
 Key benefits:
 - Personalized plans that adapt over time
@@ -30,7 +28,13 @@ Key benefits:
 Coming Soon...
 
 ## 📸 Screenshots
-Add screenshots here
+Below are example mockups/screenshots. These are simple SVG mockups added to the repository as placeholders — replace them with real screenshots when available.
+
+![Sak Home](assets/screenshots/home.svg)
+
+![Workout screen](assets/screenshots/workout.svg)
+
+![Tracking screen](assets/screenshots/tracking.svg)
 
 ## 🏅 How to add badges to your README (Fitness app examples)
 Badges give quick visual signals (build status, version, downloads, achievements). Use Shields.io to create badges and paste the Markdown into your README.
@@ -74,6 +78,6 @@ Tips for fitness-specific badges:
 ---
 
 If you want, I can also: 
-- add a LICENSE file (MIT/Apache) and set a license badge, 
-- generate example screenshots or mockups to include, 
-- or create specific dynamic badges (e.g., GitHub Actions build status) — tell me which.
+- create dynamic build badges via GitHub Actions, 
+- replace SVG mockups with photo screenshots you upload, 
+- or generate higher-fidelity mockups (Figma export) — tell me which.

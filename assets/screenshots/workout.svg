@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700">
+  <defs>
+    <linearGradient id="g2" x1="0" x2="1">
+      <stop offset="0%" stop-color="#fef3c7"/>
+      <stop offset="100%" stop-color="#fde68a"/>
+    </linearGradient>
+    <style>
+      .bg{fill:url(#g2)}
+      .card{fill:#fff;stroke:#f3f4f6;stroke-width:2;rx:18}
+      .h1{font:700 36px sans-serif;fill:#92400e}
+      .muted{font:400 18px sans-serif;fill:#7c2d12}
+    </style>
+  </defs>
+  <rect width="100%" height="100%" class="bg" rx="24"/>
+  <g transform="translate(60,60)">
+    <rect width="1080" height="580" class="card"/>
+    <text x="40" y="70" class="h1">Workout — Full Body Blast</text>
+    <text x="40" y="110" class="muted">4 sets • 40 minutes • No equipment</text>
+
+    <g transform="translate(40,150)">
+      <rect width="520" height="380" fill="#fff7ed" rx="12" stroke="#fbe7c6"/>
+      <text x="20" y="40" font-size="20" fill="#92400e">1. Squats</text>
+      <text x="20" y="80" font-size="16" fill="#92400e">3 sets × 12 reps</text>
+      <text x="20" y="140" font-size="20" fill="#92400e">2. Push-ups</text>
+      <text x="20" y="180" font-size="16" fill="#92400e">4 sets × 10 reps</text>
+    </g>
+
+    <g transform="translate(600,150)">
+      <rect width="420" height="200" fill="#eef2ff" rx="12" stroke="#e0e7ff"/>
+      <text x="20" y="40" font-size="20" fill="#3730a3">Warm-up</text>
+      <text x="20" y="80" font-size="16" fill="#3730a3">5 min jump rope • 3 stretches</text>
+
+      <rect x="0" y="220" width="420" height="130" fill="#f0fff4" rx="12" stroke="#dcfce7"/>
+      <text x="20" y="260" font-size="20" fill="#065f46">Estimated Calories</text>
+      <text x="20" y="300" font-size="28" fill="#065f46">230 kcal</text>
+    </g>
+  </g>
+</svg>
